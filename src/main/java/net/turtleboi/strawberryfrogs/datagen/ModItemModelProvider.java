@@ -42,11 +42,25 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.STRAWBERRY);
-        //simpleItem(ModItems.TRUEICE_SHARD);
-        //simpleItem(ModItems.FROZEN_HEART);
-        //simpleItem(ModItems.COLDSTEEL_SCRAP);
-        //simpleItem(ModItems.COLDSTEEL_INGOT);
-//
+        simpleItem(ModItems.FLOUR);
+        simpleItem(ModItems.DOUGH);
+        simpleItem(ModItems.BUTTER);
+        simpleItem(ModItems.SUGAR_CUBE);
+        simpleItem(ModItems.SUGAR_COOKIE);
+        simpleItem(ModItems.VANILLA_BEAN);
+        simpleItem(ModItems.VANILLA_EXTRACT);
+        simpleItem(ModItems.SWEET_BREAD);
+        simpleItem(ModItems.SCONE);
+        simpleItem(ModItems.MUFFIN);
+        simpleItem(ModItems.CHOCOLATE_STRAWBERRY);
+        simpleItem(ModItems.STRAWBERRY_JAM);
+        simpleItem(ModItems.STRAWBERRY_MILK);
+        simpleItem(ModItems.STRAWBERRY_TOAST);
+        simpleItem(ModItems.STRAWBERRY_MUFFIN);
+        simpleItem(ModItems.STRAWBERRY_SHORTCAKE);
+        simpleItem(ModItems.STRAWBERRY_ICE_CREAM);
+        simpleItem(ModItems.STRAWBERRY_MILKSHAKE);
+
         //handheldItem(ModItems.COLDSTEEL_SWORD);
         //handheldItem(ModItems.COLDSTEEL_PICKAXE);
         //handheldItem(ModItems.COLDSTEEL_AXE);
