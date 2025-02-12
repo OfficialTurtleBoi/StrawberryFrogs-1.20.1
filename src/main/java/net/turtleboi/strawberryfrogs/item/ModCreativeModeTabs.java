@@ -19,8 +19,25 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.SWEET_BERRIES))
                     .title(Component.translatable("creativetab.strawberryfrogs_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(Items.SWEET_BERRIES);
                         pOutput.accept(ModItems.STRAWBERRY.get());
+                        pOutput.accept(ModItems.FLOUR.get());
+                        pOutput.accept(ModItems.DOUGH.get());
+                        pOutput.accept(ModItems.BUTTER.get());
+                        pOutput.accept(ModItems.SUGAR_CUBE.get());
+                        pOutput.accept(ModItems.SUGAR_COOKIE.get());
+                        pOutput.accept(ModItems.VANILLA_BEAN.get());
+                        pOutput.accept(ModItems.VANILLA_EXTRACT.get());
+                        pOutput.accept(ModItems.SWEET_BREAD.get());
+                        pOutput.accept(ModItems.SCONE.get());
+                        pOutput.accept(ModItems.MUFFIN.get());
+                        pOutput.accept(ModItems.CHOCOLATE_STRAWBERRY.get());
+                        pOutput.accept(ModItems.STRAWBERRY_JAM.get());
+                        pOutput.accept(ModItems.STRAWBERRY_MILK.get());
+                        pOutput.accept(ModItems.STRAWBERRY_TOAST.get());
+                        pOutput.accept(ModItems.STRAWBERRY_MUFFIN.get());
+                        pOutput.accept(ModItems.STRAWBERRY_SHORTCAKE.get());
+                        pOutput.accept(ModItems.STRAWBERRY_ICE_CREAM.get());
+                        pOutput.accept(ModItems.STRAWBERRY_MILKSHAKE.get());
                     })
                     .build());
 
