@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "strawberryfrogs:muffin"
+    },
+    {
+      "item": "strawberryfrogs:strawberry"
+    }
+  ],
+  "result": {
+    "item": "strawberryfrogs:strawberry_muffin",
+    "count": 1
+  }
+}

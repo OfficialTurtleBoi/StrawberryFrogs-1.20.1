@@ -11,6 +11,9 @@
     },
     "age=3": {
       "model": "strawberryfrogs:block/strawberry_stage3"
+    },
+    "age=4": {
+      "model": "strawberryfrogs:block/strawberry_stage4"
     }
   }
 }

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "strawberryfrogs:scone"
+    },
+    {
+      "item": "strawberryfrogs:strawberry"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    }
+  ],
+  "result": {
+    "item": "strawberryfrogs:strawberry_shortcake",
+    "count": 1
+  }
+}

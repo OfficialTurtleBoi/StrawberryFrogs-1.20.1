@@ -2,6 +2,7 @@
   "creativetab.strawberryfrogs_tab": "Strawberry Frogs",
 
   "item.strawberryfrogs.butter": "Butter",
+  "item.strawberryfrogs.buttered_toast": "Buttered Toast",
   "item.strawberryfrogs.chocolate_strawberry": "Chocolate Strawberry",
   "item.strawberryfrogs.dough": "Dough",
   "item.strawberryfrogs.flour": "Flour",
@@ -17,7 +18,8 @@
   "item.strawberryfrogs.strawberry_toast": "Strawberry Toast",
   "item.strawberryfrogs.sugar_cookie": "Sugar Cookie",
   "item.strawberryfrogs.sugar_cube": "Sugar Cube",
-  "item.strawberryfrogs.sweet_bread": "Sweet Bread",
+  "item.strawberryfrogs.toast": "Toast",
   "item.strawberryfrogs.vanilla_bean": "Vanilla Bean",
-  "item.strawberryfrogs.vanilla_extract": "Vanilla Extract"
+  "item.strawberryfrogs.vanilla_extract": "Vanilla Extract",
+  "item.strawberryfrogs.vanilla_ice_cream": "Vanilla Ice Cream"
 }

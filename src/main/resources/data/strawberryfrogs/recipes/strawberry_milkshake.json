@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "IGM",
+    " B "
+  ],
+  "key": {
+    "S": {
+      "item": "strawberryfrogs:strawberry"
+    },
+    "B": {
+      "item": "minecraft:glass_bottle"
+    },
+    "M": {
+      "item": "strawberryfrogs:strawberry_milk"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    },
+    "G": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "strawberryfrogs:strawberry_milkshake",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " R ",
+    "EDB",
+    "M S"
+  ],
+  "key": {
+    "R": {
+      "item": "strawberryfrogs:strawberry"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "D": {
+      "item": "strawberryfrogs:dough"
+    },
+    "B": {
+      "item": "strawberryfrogs:butter"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "strawberryfrogs:strawberry_shortcake",
+    "count": 2
+  }
+}

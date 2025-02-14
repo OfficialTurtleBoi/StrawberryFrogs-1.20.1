@@ -12,22 +12,18 @@ import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.placement.PlacementModifier;
 import net.turtleboi.strawberryfrogs.StrawberryFrogs;
+import net.turtleboi.strawberryfrogs.block.ModBlocks;
 
 import java.util.List;
 
 public final class ModPlacedFeatures {
-    public static final ResourceKey<PlacedFeature> GREYPINE_PLACED_KEY = registerKey("greypine_placed");
-    public static final ResourceKey<PlacedFeature> MYST_WILLOW_PLACED_KEY = registerKey("myst_willow_placed");
+    public static final ResourceKey<PlacedFeature> STRAWBERRY_BUSH_PLACED_KEY = registerKey("strawberry_bush_placed");
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
-        //register(context, GREYPINE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.GREYPINE_KEY),
-        //        VegetationPlacements.treePlacement(PlacementUtils.countExtra(8, 0.5f, 4),
-        //                ModBlocks.GREYPINE_SAPLING.get()));
-//
-        //register(context, MYST_WILLOW_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.MYST_WILLOW_KEY),
-        //        VegetationPlacements.treePlacement(PlacementUtils.countExtra(8, 0.5f, 4),
-        //                ModBlocks.MYST_WILLOW_SAPLING.get()));
+        //register(context, STRAWBERRY_BUSH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.STRAWBERRY_BUSH_KEY),
+        //        VegetationPlacements.treePlacement(PlacementUtils.countExtra(3, 0.5f, 2),
+        //                ModBlocks.STRAWBERRY_BUSH.get()));
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {

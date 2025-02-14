@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ISM",
+    " B "
+  ],
+  "key": {
+    "S": {
+      "item": "strawberryfrogs:strawberry"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "strawberryfrogs:strawberry_ice_cream",
+    "count": 1
+  }
+}

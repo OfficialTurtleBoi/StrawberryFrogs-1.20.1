@@ -4,35 +4,42 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
-import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
-import net.minecraft.world.level.levelgen.feature.foliageplacers.DarkOakFoliagePlacer;
+import net.minecraft.world.level.levelgen.feature.configurations.VegetationPatchConfiguration;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
-import net.minecraft.world.level.levelgen.feature.trunkplacers.DarkOakTrunkPlacer;
+import net.minecraft.world.level.levelgen.placement.CaveSurface;
 import net.turtleboi.strawberryfrogs.StrawberryFrogs;
+import net.turtleboi.strawberryfrogs.block.ModBlocks;
 
 public final class ModConfiguredFeatures {
-    public static final ResourceKey<ConfiguredFeature<?, ?>> GREYPINE_KEY = registerKey("grey_pine");
-    public static final ResourceKey<ConfiguredFeature<?, ?>> MYST_WILLOW_KEY = registerKey("myst_willow");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> STRAWBERRY_BUSH_KEY = registerKey("strawberry_bush");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
-        //register(context, GREYPINE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-        //        BlockStateProvider.simple(ModBlocks.GREYPINE_LOG.get()),
-        //        new GreypineTrunkPlacer(8, 1, 3),
-        //        BlockStateProvider.simple(ModBlocks.GREYPINE_LEAVES.get()),
-        //        new GreypineFoliagePlacer(ConstantInt.of(3), ConstantInt.of(2), 3),
-        //        new TwoLayersFeatureSize(1, 0, 2)).build());
-//
-        //register(context, MYST_WILLOW_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-        //        BlockStateProvider.simple(ModBlocks.GREYPINE_LOG.get()),
-        //        new DarkOakTrunkPlacer(4, 2, 1),
-        //        BlockStateProvider.simple(ModBlocks.GREYPINE_LEAVES.get()),
-        //        new DarkOakFoliagePlacer(ConstantInt.of(3), ConstantInt.of(2)),
-        //        new TwoLayersFeatureSize(1, 0, 2)).build());
+        //register(context, STRAWBERRY_BUSH_KEY, Feature.VEGETATION_PATCH, new VegetationPatchConfiguration(
+        //        TagKey.create(Registries.BLOCK, new ResourceLocation("minecraft", "replaceable_plants")),
+        //        // Ground state – here we simply use the strawberry bush block.
+        //        BlockStateProvider.simple(ModBlocks.STRAWBERRY_BUSH.get()),
+        //        // Vegetation feature – a placed feature you’ve created for strawberry bushes.
+        //        context.lookup(Registries.PLACED_FEATURE).getOrThrow(ModPlacedFeatures.STRAWBERRY_BUSH_PLACED_KEY),
+        //        // Surface type – for example, FLOOR.
+        //        CaveSurface.FLOOR,
+        //        // Depth – how many blocks deep the patch extends. Here we use a constant 1.
+        //        ConstantInt.of(1),
+        //        // Extra bottom block chance – 0 means no extra bottom block.
+        //        0.0F,
+        //        // Vertical range – how many blocks tall the patch is; here, 1.
+        //        1,
+        //        // Vegetation chance – e.g., a 50% chance that vegetation spawns.
+        //        0.5F,
+        //        // XZ radius – e.g., a constant radius of 2 blocks.
+        //        ConstantInt.of(2),
+        //        // Extra edge column chance – e.g., 0 means no extra edge columns.
+        //        0.0F
+        //));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

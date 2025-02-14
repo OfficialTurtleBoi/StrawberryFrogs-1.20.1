@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": {
+    "item": "minecraft:bread"
+  },
+  "result": "strawberryfrogs:toast",
+  "experience": 20,
+  "cookingtime": 200
+}

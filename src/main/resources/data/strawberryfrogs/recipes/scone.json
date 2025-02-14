@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "EDB"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "D": {
+      "item": "strawberryfrogs:dough"
+    },
+    "B": {
+      "item": "strawberryfrogs:butter"
+    }
+  },
+  "result": {
+    "item": "strawberryfrogs:scone",
+    "count": 2
+  }
+}
