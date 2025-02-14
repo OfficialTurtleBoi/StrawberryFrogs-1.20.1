@@ -17,13 +17,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        //this.tag(BlockTags.LOGS_THAT_BURN)
-        //        .add(ModBlocks.GREYPINE_LOG.get())
-        //        .add(ModBlocks.GREYPINE_WOOD.get())
-        //        .add(ModBlocks.STRIPPED_GREYPINE_LOG.get())
-        //        .add(ModBlocks.STRIPPED_GREYPINE_WOOD.get());
-//
-        //this.tag(BlockTags.PLANKS)
-        //        .add(ModBlocks.GREYPINE_PLANKS.get());
+
     }
 }

@@ -27,25 +27,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        //this.dropSelf(ModBlocks.COLDSTEEL_BLOCK.get());
-        //this.dropSelf(ModBlocks.GREYPINE_LOG.get());
-        //this.dropSelf(ModBlocks.GREYPINE_WOOD.get());
-        //this.dropSelf(ModBlocks.STRIPPED_GREYPINE_LOG.get());
-        //this.dropSelf(ModBlocks.STRIPPED_GREYPINE_WOOD.get());
-        //this.dropSelf(ModBlocks.GREYPINE_PLANKS.get());
-        //this.dropSelf(ModBlocks.WONDER_SHROOM.get());
-        //this.dropSelf(ModBlocks.WONDER_TREE_SHROOM.get());
-        //this.dropOther(ModBlocks.WONDER_TREE_SHROOM_WALL.get(), ModItems.WONDER_TREE_SHROOM.get());
-        //this.dropSelf(ModBlocks.GREYPINE_SAPLING.get());
-        //this.dropSelf(ModBlocks.MYST_WILLOW_SAPLING.get());
-//
-        //this.add(ModBlocks.GREYPINE_LEAVES.get(), block ->
-        //        createLeavesDrops(block, ModBlocks.GREYPINE_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
-//
-        //this.dropWhenSilkTouch(ModBlocks.ICE_SLUSH.get());
-        //this.dropWhenSilkTouch(ModBlocks.ICY_VINES.get());
-        //this.dropWhenSilkTouch(ModBlocks.ICY_VINES_PLANT.get());
-
         LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(ModBlocks.STRAWBERRY_BUSH.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryBushBlock.AGE, 3))

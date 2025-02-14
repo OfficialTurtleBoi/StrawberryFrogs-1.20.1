@@ -26,26 +26,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         makeBerryBush((BushBlock) ModBlocks.STRAWBERRY_BUSH.get(), "strawberry_stage", "strawberry_stage");
-        //blockWithItem(ModBlocks.COLDSTEEL_BLOCK);
-//
-        //logBlock(((RotatedPillarBlock) ModBlocks.GREYPINE_LOG.get()));
-        //axisBlock(((RotatedPillarBlock) ModBlocks.GREYPINE_WOOD.get()), blockTexture(ModBlocks.GREYPINE_LOG.get()), blockTexture(ModBlocks.GREYPINE_LOG.get()));
-//
-        //axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_GREYPINE_LOG.get()), blockTexture(ModBlocks.STRIPPED_GREYPINE_LOG.get()),
-        //        new ResourceLocation(StrawberryFrogs.MOD_ID, "block/stripped_greypine_log_top"));
-        //axisBlock(((RotatedPillarBlock) ModBlocks.STRIPPED_GREYPINE_WOOD.get()), blockTexture(ModBlocks.STRIPPED_GREYPINE_LOG.get()), blockTexture(ModBlocks.STRIPPED_GREYPINE_LOG.get()));
-//
-        //blockItem(ModBlocks.GREYPINE_LOG);
-        //blockItem(ModBlocks.GREYPINE_WOOD);
-        //blockItem(ModBlocks.STRIPPED_GREYPINE_LOG);
-        //blockItem(ModBlocks.STRIPPED_GREYPINE_WOOD);
-//
-        //blockWithItem(ModBlocks.GREYPINE_PLANKS);
-//
-        //leavesBlock(ModBlocks.GREYPINE_LEAVES);
-//
-        //saplingBlock(ModBlocks.GREYPINE_SAPLING);
-        //saplingBlock(ModBlocks.MYST_WILLOW_SAPLING);
     }
 
     public void makeBerryBush(BushBlock block, String modelName, String textureName) {

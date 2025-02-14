@@ -63,21 +63,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.VANILLA_ICE_CREAM);
         simpleItem(ModItems.STRAWBERRY_MILKSHAKE);
 
-        //handheldItem(ModItems.COLDSTEEL_SWORD);
-        //handheldItem(ModItems.COLDSTEEL_PICKAXE);
-        //handheldItem(ModItems.COLDSTEEL_AXE);
-        //handheldItem(ModItems.COLDSTEEL_SHOVEL);
-        //handheldItem(ModItems.COLDSTEEL_HOE);
-        //handheldItem(ModItems.FROSTBITE_WAND);
-//
-        //saplingItem(ModBlocks.GREYPINE_SAPLING);
-        //saplingItem(ModBlocks.MYST_WILLOW_SAPLING);
-//
-        //trimmedArmorItem(ModItems.COLDSTEEL_HELMET);
-        //trimmedArmorItem(ModItems.COLDSTEEL_CHESTPLATE);
-        //trimmedArmorItem(ModItems.COLDSTEEL_LEGGINGS);
-        //trimmedArmorItem(ModItems.COLDSTEEL_BOOTS);
-//
         withExistingParent(ModItems.STRAWBERRY_FROG_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
