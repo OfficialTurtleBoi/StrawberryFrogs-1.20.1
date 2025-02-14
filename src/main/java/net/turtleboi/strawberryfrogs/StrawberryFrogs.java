@@ -20,6 +20,7 @@ import net.turtleboi.strawberryfrogs.entity.StrawberryFrogEntity;
 import net.turtleboi.strawberryfrogs.item.ModCreativeModeTabs;
 import net.turtleboi.strawberryfrogs.item.ModItems;
 import net.turtleboi.strawberryfrogs.loot.ModLootModifiers;
+import net.turtleboi.strawberryfrogs.network.ModNetworking;
 import org.slf4j.Logger;
 
 @Mod(StrawberryFrogs.MOD_ID)
@@ -45,6 +46,7 @@ public class StrawberryFrogs {
         event.enqueueWork(() -> {
             SpawnPlacements.register(ModEntities.STRAWBERRY_FROG.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.WORLD_SURFACE, StrawberryFrogEntity::canSpawn);
         });
+        ModNetworking.register();
     }
 
     @SubscribeEvent

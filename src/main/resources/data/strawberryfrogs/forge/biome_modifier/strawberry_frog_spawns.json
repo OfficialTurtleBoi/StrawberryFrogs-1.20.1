@@ -4,7 +4,7 @@
 
   "spawners":{
     "type": "strawberryfrogs:strawberry_frog",
-    "weight": 75,
+    "weight": 125,
     "minCount": 1,
     "maxCount": 3
   }

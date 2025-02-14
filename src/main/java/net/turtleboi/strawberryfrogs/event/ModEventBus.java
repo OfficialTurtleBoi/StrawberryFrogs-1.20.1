@@ -8,7 +8,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.turtleboi.strawberryfrogs.StrawberryFrogs;
 import net.turtleboi.strawberryfrogs.entity.ModEntities;
 import net.turtleboi.strawberryfrogs.entity.StrawberryFrogEntity;
-import net.turtleboi.strawberryfrogs.entity.client.renderers.StrawberryFrogRenderer;
+import net.turtleboi.strawberryfrogs.entity.client.renderer.StrawberryFrogRenderer;
 
 @Mod.EventBusSubscriber(modid = StrawberryFrogs.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ModEventBus {
