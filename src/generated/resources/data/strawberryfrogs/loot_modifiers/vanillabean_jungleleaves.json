@@ -1,0 +1,14 @@
+{
+  "type": "strawberryfrogs:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:jungle_leaves",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.35,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "strawberryfrogs:vanilla_bean"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "MFB",
+    " R "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "F": {
+      "item": "strawberryfrogs:flour"
+    },
+    "B": {
+      "item": "strawberryfrogs:butter"
+    },
+    "R": {
+      "item": "strawberryfrogs:strawberry"
+    }
+  },
+  "result": {
+    "item": "strawberryfrogs:strawberry_muffin",
+    "count": 2
+  }
+}

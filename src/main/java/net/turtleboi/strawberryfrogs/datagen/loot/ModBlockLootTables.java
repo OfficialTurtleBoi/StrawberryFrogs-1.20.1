@@ -48,10 +48,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
         LootItemCondition.Builder lootitemcondition$builder2 = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(ModBlocks.STRAWBERRY_BUSH.get())
-                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryBushBlock.AGE, 2))
+                .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryBushBlock.AGE, 3))
                 .or(LootItemBlockStatePropertyCondition
                         .hasBlockStateProperties(ModBlocks.STRAWBERRY_BUSH.get())
-                        .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryBushBlock.AGE,3)));
+                        .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryBushBlock.AGE,4)));
 
         this.add(ModBlocks.STRAWBERRY_BUSH.get(),
                 createCropDrops(

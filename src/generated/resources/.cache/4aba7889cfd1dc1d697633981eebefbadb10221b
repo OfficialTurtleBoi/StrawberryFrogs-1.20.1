@@ -1,11 +1,13 @@
-// 1.20.1	2025-02-11T21:17:57.3792676	Item Models: strawberryfrogs
+// 1.20.1	2025-02-13T20:36:52.681883	Item Models: strawberryfrogs
 f0512bcf4a4ee82d219362f16fb31698f2b0427f assets/strawberryfrogs/models/item/butter.json
+bf64e12b62432488cc09b4e3d282a9225fea5ce2 assets/strawberryfrogs/models/item/buttered_toast.json
 a8e3375fd8c0333e49d8d89cde6b8e418730f817 assets/strawberryfrogs/models/item/chocolate_strawberry.json
 ce56c5f10d557bb48dc93de95062501effafed40 assets/strawberryfrogs/models/item/dough.json
 6f6ec0526f75bec22664bd9be78d9429261479b8 assets/strawberryfrogs/models/item/flour.json
 0f0d80dc823c02cf3c5721bc8454d6ae0e2feda2 assets/strawberryfrogs/models/item/muffin.json
 b73448ee409b4651ebf51a57445bb97b63fda777 assets/strawberryfrogs/models/item/scone.json
 43a7b88d77a921809b6e3530f49fd9c37de7e2ce assets/strawberryfrogs/models/item/strawberry.json
+63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/strawberryfrogs/models/item/strawberry_frog_spawn_egg.json
 5daad07794b48ec23d221ffcf91ad5a313edef0e assets/strawberryfrogs/models/item/strawberry_ice_cream.json
 b399a7997c772003e9e574f7fd43ad34d1436765 assets/strawberryfrogs/models/item/strawberry_jam.json
 6e28d10edacf2106073d31b71b0c0292352c8f1a assets/strawberryfrogs/models/item/strawberry_milk.json
@@ -15,6 +17,7 @@ e28dd2fda33f0cc03a56bf2b1cbcaefb8d21ed34 assets/strawberryfrogs/models/item/stra
 fa7a78575ddbaed527eff5ff02c20e59599d0b73 assets/strawberryfrogs/models/item/strawberry_toast.json
 6007015359bb5afd85aeaf4ef7fef07bde3ec686 assets/strawberryfrogs/models/item/sugar_cookie.json
 25f63aa37b2ef5d441e4c8d1912df590e3290b88 assets/strawberryfrogs/models/item/sugar_cube.json
-2503921161c9463673d0c05b9418ac680b19036a assets/strawberryfrogs/models/item/sweet_bread.json
+b12f32a18cb0f9ce54631cd10ae34305ea4a4bd7 assets/strawberryfrogs/models/item/toast.json
 0f753cfb8f7904517f8a66f016c287ebe839d68d assets/strawberryfrogs/models/item/vanilla_bean.json
 0bf5f84fe3a0c01863ac6092335dab9313b9919c assets/strawberryfrogs/models/item/vanilla_extract.json
+dbedbaa27501ec0d38773efb92af4b29ee338522 assets/strawberryfrogs/models/item/vanilla_ice_cream.json

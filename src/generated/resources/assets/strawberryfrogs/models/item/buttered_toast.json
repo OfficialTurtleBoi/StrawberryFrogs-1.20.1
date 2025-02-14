@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "strawberryfrogs:item/sweet_bread"
+    "layer0": "strawberryfrogs:item/buttered_toast"
   }
 }

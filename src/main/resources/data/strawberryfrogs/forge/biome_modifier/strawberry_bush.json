@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#strawberryfrogs:strawberry_bush_spawns",
+  "features": "strawberryfrogs:patch_strawberry_bush",
+  "step": "vegetal_decoration"
+}

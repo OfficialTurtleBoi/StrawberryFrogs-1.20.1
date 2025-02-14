@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IVM",
+    " B "
+  ],
+  "key": {
+    "V": {
+      "item": "strawberryfrogs:vanilla_extract"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "I": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "strawberryfrogs:vanilla_ice_cream",
+    "count": 1
+  }
+}

@@ -49,7 +49,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.SUGAR_COOKIE);
         simpleItem(ModItems.VANILLA_BEAN);
         simpleItem(ModItems.VANILLA_EXTRACT);
-        simpleItem(ModItems.SWEET_BREAD);
+        simpleItem(ModItems.TOAST);
+        simpleItem(ModItems.BUTTERED_TOAST);
         simpleItem(ModItems.SCONE);
         simpleItem(ModItems.MUFFIN);
         simpleItem(ModItems.CHOCOLATE_STRAWBERRY);
@@ -59,6 +60,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.STRAWBERRY_MUFFIN);
         simpleItem(ModItems.STRAWBERRY_SHORTCAKE);
         simpleItem(ModItems.STRAWBERRY_ICE_CREAM);
+        simpleItem(ModItems.VANILLA_ICE_CREAM);
         simpleItem(ModItems.STRAWBERRY_MILKSHAKE);
 
         //handheldItem(ModItems.COLDSTEEL_SWORD);
@@ -76,10 +78,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         //trimmedArmorItem(ModItems.COLDSTEEL_LEGGINGS);
         //trimmedArmorItem(ModItems.COLDSTEEL_BOOTS);
 //
-        //withExistingParent(ModItems.SNOW_WISP_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
-        //withExistingParent(ModItems.REVENANT_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
-        //withExistingParent(ModItems.BRISK_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
-        //withExistingParent(ModItems.PINGIN_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+        withExistingParent(ModItems.STRAWBERRY_FROG_SPAWN_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
     }
 
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
