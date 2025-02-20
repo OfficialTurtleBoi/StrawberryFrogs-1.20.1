@@ -24,7 +24,7 @@ public class StrawberryFrogRenderer extends FrogRenderer {
     @Override
     protected void scale(Frog pLivingEntity, PoseStack pPoseStack, float pPartialTickTime) {
         if (pLivingEntity instanceof StrawberryFrogEntity strawberryFrog) {
-            float scaleFactor = 1.0F + (strawberryFrog.getStrawberriesEaten() * 0.1F);
+            float scaleFactor = 1.0F + (strawberryFrog.getStrawberriesEaten() * 0.25F);
             pPoseStack.scale(scaleFactor, scaleFactor, scaleFactor);
         }
     }
